@@ -1,0 +1,49 @@
+{
+  "summary": "The new lithium-metal battery can store up to 10 times more energy than traditional batteries . Commercial production is expected to begin within two years, potentially revolutionizing the electric vehicle industry. The research was funded by the Department of Energy and published in the journal Nature Energy.",
+  "model": "t5-finetuned",
+  "article_length": 154,
+  "polarity": {
+    "label": "POSITIVE",
+    "score": 0.9706115126609802
+  },
+  "finegrained": {
+    "label": "5 stars",
+    "score": 0.5335150361061096
+  },
+  "intent": {
+    "sequence": "The new lithium-metal battery can store up to 10 times more energy than traditional batteries . Commercial production is expected to begin within two years, potentially revolutionizing the electric vehicle industry. The research was funded by the Department of Energy and published in the journal Nature Energy.",
+    "labels": [
+      "informative",
+      "breaking news",
+      "analysis",
+      "warning",
+      "opinion"
+    ],
+    "scores": [
+      0.4928939938545227,
+      0.17478646337985992,
+      0.1583087146282196,
+      0.0908612459897995,
+      0.08314960449934006
+    ]
+  },
+  "aspects": {
+    "sequence": "The new lithium-metal battery can store up to 10 times more energy than traditional batteries . Commercial production is expected to begin within two years, potentially revolutionizing the electric vehicle industry. The research was funded by the Department of Energy and published in the journal Nature Energy.",
+    "labels": [
+      "technology",
+      "economy",
+      "health",
+      "entertainment",
+      "sports",
+      "politics"
+    ],
+    "scores": [
+      0.9091541767120361,
+      0.046944908797740936,
+      0.01985836960375309,
+      0.00952066108584404,
+      0.0077745928429067135,
+      0.006747247185558081
+    ]
+  }
+}
