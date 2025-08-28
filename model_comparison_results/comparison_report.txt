@@ -1,0 +1,80 @@
+
+# T5 Fine-tuned vs Normal Model Comparison Report
+Generated on: 2025-08-26 22:50:00
+
+## Executive Summary
+This report compares the performance of a fine-tuned T5 model against the baseline T5-base model
+on CNN/DailyMail summarization task using 3000 test samples.
+
+## Performance Metrics
+
+### ROUGE Scores (Higher is Better)
+- ROUGE-1:
+  * Fine-tuned: 38.65%
+  * Normal: 36.29%
+  * Improvement: 2.36%
+
+- ROUGE-2:
+  * Fine-tuned: 16.67%
+  * Normal: 14.82%
+  * Improvement: 1.85%
+
+- ROUGE-L:
+  * Fine-tuned: 26.08%
+  * Normal: 24.26%
+  * Improvement: 1.82%
+
+### BLEU Score (Higher is Better)
+- Fine-tuned: 11.42%
+- Normal: 8.45%
+- Improvement: 2.97%
+
+### Summary Characteristics
+- Average Summary Length (Words):
+  * Fine-tuned: 57.0
+  * Normal: 54.4
+  * Reference: 44.8
+
+- Length Ratio (Summary/Reference):
+  * Fine-tuned: 1.27
+  * Normal: 1.21
+
+### Inference Performance
+- Average Inference Time:
+  * Fine-tuned: 2.6997829396666666 seconds
+  * Normal: 2.690781328 seconds
+
+## Key Findings
+
+1. **Overall Performance**: The fine-tuned model shows significant improvement compared to the baseline.
+
+2. **Summary Quality**: Fine-tuned model generates more coherent summaries.
+
+3. **Length Appropriateness**: Normal model shows better length matching.
+
+## Recommendations
+
+Based on the analysis:
+- Deploy fine-tuned model for production use
+- Inference performance is acceptable
+
+## Best Performing Examples
+
+### Example 1 (ROUGE-1: 0.97)
+**Reference**: A video uploaded by YouTube user Shkesi shows a baby girl mesmerized by the mothering hen .
+As the plush bird bounces up and down and pops out an egg ...
+**Fine-tuned**: A video uploaded by YouTube user Shkesi shows a baby girl mesmerized by the toy mothering hen . As the motorized plush bird bounces up and down and po...
+**Normal**: video uploaded by YouTube user shkesi shows a baby girl mesmerized by the toy mothering hen ....
+
+### Example 2 (ROUGE-1: 0.88)
+**Reference**: Martin Guptill has been recalled to the New Zealand Test squad .
+Guptill has not represented the Black Caps at Test level since 2013 .
+Paceman Matt He...
+**Fine-tuned**: Martin Guptill has been recalled to the New Zealand Test squad . The 23-year-old has not represented the Black Caps at Test level since the 2013 tour ...
+**Normal**: Martin Guptill has not represented the Black Caps at Test level since the 2013 tour of England . the 23-year-old smashed 237 against the west indies i...
+
+### Example 3 (ROUGE-1: 0.86)
+**Reference**: Katie Gallegos from Clackamas County, Oregon, decided to take the pooch to a McDonald's drive-thru for an ice cream with his pal Daisy .
+But while the...
+**Fine-tuned**: Katie Gallegos from Clackamas County, Oregon, decided to take Cooper the pooch to a McDonald's drive-thru for an ice cream with his pal Daisy . But wh...
+**Normal**: Katie Gallegos from Clackamas County, Oregon, decided to take Cooper the pooch to a McDonald's drive-thru for an ice cream with his pal Daisy . but wh...

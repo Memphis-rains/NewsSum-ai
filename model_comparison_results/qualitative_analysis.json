@@ -1,0 +1,116 @@
+{
+  "best_samples": [
+    {
+      "index": 1376,
+      "article_snippet": "Forget the Easter Bunny, it was an egg-laying chick spreading the joy in one household. A video uploaded by YouTube user Shkesi shows a baby girl mesmerized by a toy mothering hen. As the motorized plush bird bounces up and down and pops out an egg, the infant can barely believe her eyes. When the f...",
+      "reference": "A video uploaded by YouTube user Shkesi shows a baby girl mesmerized by the mothering hen .\nAs the plush bird bounces up and down and pops out an egg the infant can barely believe her eyes .",
+      "scores": {
+        "finetuned": 0.972972972972973,
+        "normal": 0.5769230769230769
+      },
+      "finetuned_summary": "A video uploaded by YouTube user Shkesi shows a baby girl mesmerized by the toy mothering hen . As the motorized plush bird bounces up and down and pops out an egg the infant can barely believe her eyes.",
+      "normal_summary": "video uploaded by YouTube user shkesi shows a baby girl mesmerized by the toy mothering hen ."
+    },
+    {
+      "index": 1397,
+      "article_snippet": "Martin Guptill has been recalled to the New Zealand Test squad for their upcoming two-match series against England next month. Guptill, who smashed 237 against the West Indies in the recent World Cup has not represented the Black Caps at Test level since the 2013 tour of England. Paceman Matt Henry ...",
+      "reference": "Martin Guptill\u00a0has been recalled to the New Zealand Test squad .\nGuptill has not represented the Black Caps at Test level since 2013 .\nPaceman Matt Henry\u00a0has been called up to the Test squad for the first time .\nJames Neesham will miss the tour because of a hamstring injury .",
+      "scores": {
+        "finetuned": 0.8823529411764707,
+        "normal": 0.45871559633027525
+      },
+      "finetuned_summary": "Martin Guptill has been recalled to the New Zealand Test squad . The 23-year-old has not represented the Black Caps at Test level since the 2013 tour of England. Paceman Matt Henry has also been called up for the first time. James Neesham will miss the tour because of a hamstring injury.",
+      "normal_summary": "Martin Guptill has not represented the Black Caps at Test level since the 2013 tour of England . the 23-year-old smashed 237 against the west indies in the recent world cup - he has only played 20 first class matches for the black cap side in a single test match so far this season 'there will be opportunities for contenders'"
+    },
+    {
+      "index": 1584,
+      "article_snippet": "It's said eating slowly helps bring the taste and texture of\u00a0foods to the foreground. But Cooper the Labrador certainly doesn't care about being a culinary connoisseur, as a new video shows. Katie Gallegos from  Clackamas County, Oregon, decided to take the pooch to a McDonald's drive-thru for an ic...",
+      "reference": "Katie Gallegos from Clackamas County, Oregon, decided to take the pooch to a McDonald's drive-thru for an ice cream with his pal Daisy .\nBut while the small female pup takes a few ladylike licks, Cooper gobbles the rest of the cone up in one bite .\nGallegos says ice cream is a weekly treat for her pets .",
+      "scores": {
+        "finetuned": 0.8571428571428572,
+        "normal": 0.7603305785123967
+      },
+      "finetuned_summary": "Katie Gallegos from Clackamas County, Oregon, decided to take Cooper the pooch to a McDonald's drive-thru for an ice cream with his pal Daisy . But while the small female pup takes some ladylike licks, Cooper gobbles the rest of the cone up in one bite.",
+      "normal_summary": "Katie Gallegos from Clackamas County, Oregon, decided to take Cooper the pooch to a McDonald's drive-thru for an ice cream with his pal Daisy . but while the small female pup takes some ladylike licks, Cooper gobbles the rest of the cone up in one bite - despite the pup taking fewer gulps due to her size and her small size 'puppy-uccino'"
+    },
+    {
+      "index": 1175,
+      "article_snippet": "This dog certainly is his master's best friend after saving him from a cold and muddy grave. The black pooch was filmed in action as he took a rescue rope out to his owner at the Clarence J. Brown Dam and Reservoir in Springfield, Ohio, on Saturday afternoon. Footage shows the unidentified man then ...",
+      "reference": "The black pooch was filmed in action as he took a rescue rope out to his owner at the Clarence J. Brown Dam and Reservoir in Ohio on Saturday .\nFootage shows the unidentified man then being hauled to shore by firefighters after spending almost two hours in cold waters .",
+      "scores": {
+        "finetuned": 0.8135593220338982,
+        "normal": 0.7249999999999999
+      },
+      "finetuned_summary": "The black pooch was filmed in action as he took a rescue rope out to his owner at the Clarence J. Brown Dam and Reservoir in Springfield, Ohio, on Saturday afternoon . Footage shows the unidentified man then being hauled to shore by firefighters after spending almost two hours in waters hovering around zero degrees Celsius. He apparently got stuck waist-deep in mud while recovering some duck hunting gear.",
+      "normal_summary": "the black pooch was filmed in action as he took a rescue rope out to his owner at the Clarence J. Brown Dam and Reservoir in Springfield, Ohio, on Saturday afternoon ."
+    },
+    {
+      "index": 1018,
+      "article_snippet": "April 8, 2015 . After a report on headlines concerning the U.S. and Cuba, CNN Student News gives some perspective on California's historic drought: Its effects are becoming more likely to ripple across the nation. There's been a flu outbreak in Chicago -- but not one that affects humans. And a propo...",
+      "reference": "This page includes the show Transcript .\nUse the Transcript to help students with reading comprehension and vocabulary .\nAt the bottom of the page, comment for a chance to be mentioned on CNN Student News.  You must be a teacher or a student age 13 or older to request a mention on the CNN Student News Roll Call.",
+      "scores": {
+        "finetuned": 0.7961165048543689,
+        "normal": 0.7777777777777778
+      },
+      "finetuned_summary": "This page includes the show Transcript . Use the transcript to help students with reading comprehension and vocabulary - Click here to access the video. You must be a teacher or student age 13 or older to request to be mentioned on the CNN Student News Roll Call.",
+      "normal_summary": "this page includes the show transcript . use the transcript to help students with reading comprehension and vocabulary - on the CNN Student News Roll Call! at the bottom of the page, comment for a chance to be mentioned on cnn student news. your school name, mascot, city and state should be included."
+    }
+  ],
+  "worst_samples": [
+    {
+      "index": 273,
+      "article_snippet": "(CNN)Han and Chewie are back. An ESPN reporter went on a regrettable rant. And we all taxed our brains trying to deduce the date of Cheryl's damn birthday. Here are pop culture's most talked-about stories of the week. Producers of \"Star Wars: The Force Awakens\" unveiled a nearly two-minute trailer f...",
+      "reference": "Here's a roundup of the week's trending pop-culture stories .\nThey include a new \"Star Wars\" trailer and an ill-advised, on-camera rant .",
+      "scores": {
+        "finetuned": 0.04878048780487805,
+        "normal": 0.09523809523809525
+      },
+      "finetuned_summary": "The first set of female quintuplets in the world since 1969 was born in Houston, Texas . Singer Hillary Scott of Lady Antebellum had to vacate her tour bus when it caught fire outside of Dallas. Physicist Stephen Hawking partnered with the silly lads of Monty Python to recreate the \"Galaxy Song\" from \"The Meaning of Life\"",
+      "normal_summary": "the first set of female quintuplets in the world since 1969 was born in Houston, Texas . a new book explores how social media may go too far in encouraging haters to shame people who make public missteps. singer Hillary Scott of country band Lady Antebellum had to vacate her tour bus when it caught fire outside of Dallas."
+    },
+    {
+      "index": 897,
+      "article_snippet": "Sao Paulo, Brazil (CNN)Throngs of protesters packed the streets of major Brazilian cities on Sunday, pushing for the impeachment of President Dilma Rousseff. Fueled by mounting anger over a corruption scandal that has implicated politicians in Rousseff's party, demonstrators chanted \"Out with Dilma\"...",
+      "reference": "Police say 275,000 demonstrators marched in Sao Paulo .\nMany want President Dilma Rousseff to be impeached .\nA corruption scandal has implicated politicians in her party .",
+      "scores": {
+        "finetuned": 0.04651162790697675,
+        "normal": 0.39999999999999997
+      },
+      "finetuned_summary": "Protesters pack the streets of major Brazilian cities . They chant \"Out with Dilma\" and \"Time for change\"",
+      "normal_summary": "police estimate that 275,000 demonstrators marched in Sao Paulo . protesters chant \"Out with Dilma\" and \"Time for change\""
+    },
+    {
+      "index": 351,
+      "article_snippet": "(CNN)I usually think of April as tax month, but it seems to be morphing into National Get Tested Month.  Dallas Mavericks owner Mark Cuban advised Twitterers to have their blood tested for everything available -- and to do so every three months. Following her mother's cancer diagnosis, singer Taylor...",
+      "reference": "Mark Cuban said people should have their blood tested every quarter .\nGilbert Welch: Giving people more tests will increase health spending, but it won't make us healthier.",
+      "scores": {
+        "finetuned": 0.03389830508474576,
+        "normal": 0.03389830508474576
+      },
+      "finetuned_summary": "A frothy private sector is gearing up to serve the \"test me\" market . Laboratories are offering walk-in and online services to individuals who want to check their own lab values.",
+      "normal_summary": "a frothy private sector is gearing up to serve the \"test me\" market . labs are offering walk-in and online services to individuals who want to check their own lab values."
+    },
+    {
+      "index": 1043,
+      "article_snippet": "(CNN)Video may have killed the radio star, but in Norway it's digital that's killing FM radio. In two years' time, the Scandinavian nation is slated to become the first in the world to phase out radio entirely. That doesn't mean that Norwegians will be left with radio silence; they'll merely have to...",
+      "reference": "On FM, Norwegians can only find five stations .\nDigitally, there are four times that number .",
+      "scores": {
+        "finetuned": 0.03278688524590164,
+        "normal": 0.03225806451612903
+      },
+      "finetuned_summary": "In two years, Norway is slated to become the first in the world to phase out radio entirely . Half the country already listens that way, says Culture Minister Thorhild Widvey. Radio will be phased out region by region, starting in January 2017 and ending in December.",
+      "normal_summary": "in two years, norway is slated to become the first in the world to phase out radio entirely . many in this nation of 5 million have already made the move, according to officials in Oslo. half the country already listens that way, says culture minister Thorhild Widvey."
+    },
+    {
+      "index": 427,
+      "article_snippet": "(CNN)For many Girl Scout troops it is officially cookie season. I feel guilty saying no to the sweet, enthusiastic girls standing outside my grocery store who use their smiles and newly practiced sales pitches to ask how many boxes I'd like to order. After all, the organization is dedicated to enhan...",
+      "reference": "Victoria Maizes, a doctor, says she avoids Girl Scout cookies because they contain sugar, fats. Can't Scouts promote healthy snacks?\nShe says pediatricians offer little guidance on nutrition, yet a diet low in sugars, GMO's, transfats, lowers overall mortality .",
+      "scores": {
+        "finetuned": 0.022471910112359546,
+        "normal": 0.1176470588235294
+      },
+      "finetuned_summary": "Doctors are concerned that every bite and sale delivers an unhealthy snack . Thin Mints, the most popular cookie, contains refined white flour, sugar, partially hydrogenated oil and high fructose corn syrup. Cancer and heart disease are two other insidious and dangerous risks to consider: Glyphosate and canola oil.",
+      "normal_summary": "doctors are concerned that every bite and sale delivers an unhealthy snack . high fructose corn syrup and sugar in the u.s. are largely made from genetically modified crops, says dr. sanjay gupta. studies have found a causal link between sugar and heart disease."
+    }
+  ]
+}
